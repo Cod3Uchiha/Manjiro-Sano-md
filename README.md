@@ -8,17 +8,19 @@
 
 ***
 
-# GET • [SESSION ID](https://bot-by-umar-d2b1b3360401.herokuapp.com) • FOR GOLD-MD
+# *GET • [SESSION ID](https://bot-by-umar-d2b1b3360401.herokuapp.com) • FOR GOLD-MD*
 
 ***
 
-# NOW • [DEPLOY](https://dashboard.heroku.com/new?button-url=https://github.com/D4X-UMAR/GOLD-MD&template=https://github.com/D4X-UMAR/GOLD-MD) • GOLD-MD ON HEROKU
+# *NOW • [DEPLOY](https://dashboard.heroku.com/new?button-url=https://github.com/D4X-UMAR/GOLD-MD&template=https://github.com/D4X-UMAR/GOLD-MD) • GOLD-MD ON HEROKU*
 
 ***
 
-# FOLLOW THE • [WHATSAPP CHANNEL](https://whatsapp.com/channel/0029VaZtuAxLI8YeUWRXBg3Y) • FOR HELP
+# *_FOLLOW • [WHATSAPP CHANNEL](https://whatsapp.com/channel/0029VaZtuAxLI8YeUWRXBg3Y) •_*
 
-# DEVOLPER
+***
+
+# *_DEVOLPER_*
 <a href="https://github.com/D4X-UMAR"><img src="https://i.ibb.co/wspzc9t/IMG-20240328-WA0000.jpg" width="250" height="250" alt="UMAR"/></a>
 # => • [UMAR](https://github.com/D4X-UMAR) • <=
 
