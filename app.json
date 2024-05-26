@@ -1,6 +1,6 @@
 {
   "name":"GOLD-MD BY UMAR",
-  "description":"Lazmiii ||• Ap yeh Box soch samajh kar fill karna Q k ap phir inko WhatsApp per change nahi kar pae ge Ok",
+  "description":"Lazmiii•) Ap yeh Box soch samajh kar fill karna Q k ap phir inko WhatsApp per change nahi kar pae ge Ok",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-GOLDLD-PIC.png",
   "repository":"https://github.com/D4X-UMAR/GOLD-MD",
@@ -9,7 +9,7 @@
      "env":{
     "PREFIX":
     {
-      "description":"Apne bot ke prefix ke lie koi bhy symbol daalo jese . , ! ? + Sirf ek symbol likho",
+      "description":"Apne bot ke prefix ke lie koi bhy symbol daalo jese . , ! ? Sirf ek symbol likho",
       "value":".",
       "required":true
     },
@@ -49,7 +49,7 @@
 
       "description":"Bot ke menu ki pic ka Link Likho",
       "value":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-GOLDLD-PIC.png",
-      "required":true
+      "required":false
 
      },
     "PUBLIC_MODE":
@@ -87,7 +87,7 @@
 
     "desc": "Ap apna number likho |+| nahi lagana ese likho 923xxxxx",
     "required":true,
-    "value": ""
+    "value": "233201817959"
   },
     "WARN_COUNT":
   {
