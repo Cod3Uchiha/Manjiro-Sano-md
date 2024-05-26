@@ -1,4 +1,4 @@
-# ♥️ (======> • GOLD MD • <======) ♥️
+# ( =======> • GOLD MD • <======= ) 
 
 <p align="center">
   <a href="https://github.com/D4X-UMAR">
