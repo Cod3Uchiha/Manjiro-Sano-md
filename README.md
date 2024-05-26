@@ -1,4 +1,4 @@
-# ( ========> • GOLD MD • <======== ) 
+# ( =========> • GOLD MD • <========= ) 
 
 <p align="center">
   <a href="https://github.com/D4X-UMAR">
@@ -15,6 +15,8 @@
 # NOW • [DEPLOY](https://dashboard.heroku.com/new?button-url=https://github.com/D4X-UMAR/GOLD-MD&template=https://github.com/D4X-UMAR/GOLD-MD) • GOLD-MD ON HEROKU
 
 ***
+
+# FOLLOW THE • [WHATSAPP CHANNEL](https://whatsapp.com/channel/0029VaZtuAxLI8YeUWRXBg3Y) • FOR HELP
 
 # DEVOLPER
 <a href="https://github.com/D4X-UMAR"><img src="https://i.ibb.co/wspzc9t/IMG-20240328-WA0000.jpg" width="250" height="250" alt="UMAR"/></a>
