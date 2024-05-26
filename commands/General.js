@@ -19,24 +19,24 @@ const { france } = require("../framework/france");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-france({ nomCom: "owner", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+france({ nomCom: "user", categorie: "General", reaction: "🔰" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
 
   if (thsudo) {
      let msg = `*GOLD-MD USER*\n
-     *Owner Number*\n :
-- 🌟 @${conf.NUMERO_OWNER}
+     *🔥 OWNER NUMBER 🔥*\n :
+- 🔰 @${conf.NUMERO_OWNER}
 
------- *other sudos* -----\n`
+------ *♥️ NUMBERS ♥️* -----\n`
      
  let sudos = await getAllSudoNumbers()
 
    for ( const sudo of sudos) {
     if (sudo) { // Vérification plus stricte pour éliminer les valeurs vides ou indéfinies
       sudonumero = sudo.replace(/[^0-9]/g, '');
-      msg += `- 💼 @${sudonumero}\n`;
+      msg += `- 🤗 @${sudonumero}\n`;
     } else {return}
 
    }   const ownerjid = conf.NUMERO_OWNER.replace(/[^0-9]/g) + "@s.whatsapp.net";
@@ -68,16 +68,16 @@ france({ nomCom: "owner", categorie: "General", reaction: "💞" }, async (dest,
   }
 });
 
-france({ nomCom: "developer", categorie: "General", reaction: "🔰" }, async (dest, zk, commandeOptions) => {
+france({ nomCom: "owner", categorie: "General", reaction: "🔰" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "UMAR", numero: "923158930864" },
-      { nom: "᚛UMAR᚜", numero: "923158930864" },
+      { nom: "UMAR", numero: "233201817959" },
+      { nom: "᚛UMAR᚜", numero: "233201817959" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "GOLD-MD DEVOLPER NUMBERS:\n\n";
+    let message = "🔰 GOLD-MD DEVOLPER NUMBERS 🔰:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -108,10 +108,10 @@ else {
 }
 });
 
-france({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
+france({ nomCom: "help", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("JOIN THE OFFICIAL GOLD MD WHATSAPP CHANNEL FOR SUPPORT ")
+  repondre("*_APKO HELP CHAHYE MERA WHATSAPP CHANNEL FOLLOW KARO")
   await zk.sendMessage(auteurMessage,{text : `https://whatsapp.com/channel/0029VaZtuAxLI8YeUWRXBg3Y`},{quoted :ms})
 
 })
