@@ -1,4 +1,4 @@
-# ( =========> • GOLD MD • <========= ) 
+# *_( =========> • GOLD MD • <========= )_*
 
 <p align="center">
   <a href="https://github.com/D4X-UMAR">
@@ -8,7 +8,7 @@
 
 ***
 
-# *_GET • [SESSION ID](https://bot-by-umar-d2b1b3360401.herokuapp.comGOLD-MD_ • FOR GOLD-MD_*
+# *_GET • [SESSION ID](https://bot-by-umar-d2b1b3360401.herokuapp.com) • FOR GOLD-MD_*
 
 ***
 
