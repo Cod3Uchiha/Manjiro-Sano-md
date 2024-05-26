@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/D4X-UMAR/TEST-MD.git  /root/D4X-UMAR
+RUN git clone https://github.com/D4X-UMAR/GOLD-MD.git  /root/D4X-UMAR
 WORKDIR /root/D4X-UMAR/
 
 
