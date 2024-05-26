@@ -1,0 +1,143 @@
+{
+  "name":"GOLD-MD BY UMAR",
+  "description":"Lazmiii ||• Ap yeh Box soch samajh kar fill karna Q k ap phir inko WhatsApp per change nahi kar pae ge Ok",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-GOLDLD-PIC.png",
+  "repository":"https://github.com/D4X-UMAR/GOLD-MD",
+  "succes_url":"/",
+  "stack":"container",
+     "env":{
+    "PREFIX":
+    {
+      "description":"Apne bot ke prefix ke lie koi bhy symbol daalo jese . , ! ? + Sirf ek symbol likho",
+      "value":".",
+      "required":true
+    },
+    "AUTO_READ_MESSAGES":
+    {
+      "description":"Agar ap chahte hai ke apka bot apke contacts ke msgs seen kare to |yes| Likho agar nahi chahte to |no| Likho", 
+      "value":"no", 
+      "required":true 
+    }, 
+    "AUTO_READ_STATUS":
+    {
+      "description":"Agar ap chahte hai apka bot apke contacts ke statues Auto Seen kare to Likho |yes| Agar chahte ho ke Auto Seen Naa kre to |no| Likho",
+      "value":"yes",
+      "required":true
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"Agar ap chahte hai apka bot apke friends ke status Save ker ke apke inbox me send kre to Likho |yes| Agar Chahte ho Ke Send Naa kare to Likho |no|",
+      "value":"no",
+      "required":true
+    }
+    ,
+     "PM_PERMIT" :
+     {
+      "description":"Agar ap chahte ho ke apke inbox me har koi apka bot use kare to Likho |no| Agar Nahi chahte to Likho |no|",
+      "value":"no",
+      "required":true
+    }
+    ,
+    "BOT_NAME" : {
+
+      "description":"Ap apne bot ka name Likho",
+      "value":"GOLD-MD",
+      "required":true
+
+    } ,
+     "BOT_MENU_LINKS" : {
+
+      "description":"Bot ke menu ki pic ka Link Likho",
+      "value":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-GOLDLD-PIC.png",
+      "required":true
+
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"Agar ap chahte hai apka bot har koi use kare to likho |yes| agar ap khud use karna chahte hai to Likho |no| Is se koi bhi apka bot use nahi kar pae ga",
+      "value":"yes",
+      "required":true
+    }
+        ,
+    "HEROKU_API_KEY": {
+    "description": "Apke heroku ke accounts ki API KEY Likho",
+     "required":true
+    },
+   "HEROKU_APP_NAME": {
+    "description": "Jo ap ne oper 1st me name likha hai wo copy ker ke yaha paste karo",
+     "required" :true
+    }  
+          ,
+    "SESSION_ID":
+    {
+      "description":"Bot ki session id jo apko whatsapp per mili wo yaha likhe",   
+      "value":"",
+      "required": true
+
+    },
+    "OWNER_NAME":
+    {
+
+    "desc": "Ap apna name likho",
+    "required": true,
+    "value": "UMAR"
+  },
+    "OWNER_NUMBER":
+  {
+
+    "desc": "Ap apna number likho |+| nahi lagana ese likho 923xxxxx",
+    "required":true,
+    "value": ""
+  },
+    "WARN_COUNT":
+  {
+    "desc": "Ap kisi ko kitny warnins dena chahte hai phir jese hy yeh warnings poori hogi wo banda block ho jae ga ya group me hai to remove ho jae ga",
+    "required": true,
+    "value": "2"
+  },
+    "CHAT_BOT":
+    {
+      "desc": "Ap apne msg ko mention ker ke kuch bhi likho ge to reply ae ga uske lie |yes| Likho agar chahte hai ke reply Naa ae to |no| Likho",
+      "required": true, 
+       "value": "no" 
+    }, 
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "Apke inbox me bot ka connected msg ata hai agar ap chahte ho yeh msg ae to |yes| Likho agar chahte ho ke msg Naa ae to |no| Likho",
+    "required": true,
+    "value": "no"
+  },
+  "PRESENCE":{
+    "description":"Yaha per |online| Likho always Online Show hone ke lie or |typing| likho ge to koi msg kre ga apko oper show hoga is typing...  or chahte ho ke is recordin...  show ho to uske lie |recording| Likho or agar chahte hai esa kuch bhi na ho to box khali chor do",
+    "value":"",
+    "required": false
+  }  
+  },
+
+
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+
+  "formation": {
+                "worker": {
+                        "quantity": 1,
+                        "size": "basic"
+                }
+        },
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
+    }
+  ]
+}
