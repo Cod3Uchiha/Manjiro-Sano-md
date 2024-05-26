@@ -1,6 +1,6 @@
 {
-  "name": "FLASH-MD",
-  "version": "2.0.0",
+  "name": "GOLD-MD",
+  "version": "1.0.0",
   "description": "",
   "main": "flash.js",
   "scripts": {
@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Flash-Md",
+    "GOLD-MD",
     "whatsapp",
     "whatsapp-bot",
-    "franceking1"
+    "D4X-UMAR"
   ],
-  "author": "France King",
+  "author": "UMAR",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
