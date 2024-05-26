@@ -12,7 +12,7 @@
 
 ***
 
-# NOW • [DEPLOY](https://dashboard.heroku.com/new?button-url=https://github.com/D4X-UMAR/GOLD-MD&template=https://github.com/D4X-UMAR/GOLD-MD) • GOLD MD ON HEROKU
+# NOW • [DEPLOY](https://dashboard.heroku.com/new?button-url=https://github.com/D4X-UMAR/TEST-MD&template=https://github.com/D4X-UMAR/TEST-MD) • GOLD MD ON HEROKU
 
 ***
 
