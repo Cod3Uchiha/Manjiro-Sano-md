@@ -1,4 +1,4 @@
-# *_( =========> • Cod3Uchiha • <========= )_*
+# *_( =====> • Cod3Uchiha • <===== )_*
 
 <p align="center">
   <a href="https://github.com/Cod3Uchiha">
@@ -21,6 +21,6 @@
 ***
 
 # *_DEVELOPER_*
-<a href="https://github.com/Cod3Uchiha"><img src="https://i.ibb.co/wspzc9t/IMG-20240328-WA0000.jpg" width="250" height="250" alt="UMAR"/></a>
+<a href="https://github.com/Cod3Uchiha"><img src="https://telegra.ph/file/7d1d362a15f946d427db1.jpg" width="250" height="250" alt="Cod3Uchiha"/></a>
 # _=> • [Cod3Uchiha](https://github.com/Cod3Uchiha) • <=_
 
