@@ -9,38 +9,38 @@
      "env":{
     "PREFIX":
     {
-      "description":"Apne bot ke prefix ke lie koi bhy symbol daalo jese . , ! ? Sirf ek symbol likho",
+      "description":"Enter a symbol for your bot's prefix, e.g. . , ! ? Enter only one symbol",
       "value":".",
       "required":true
     },
     "AUTO_READ_MESSAGES":
     {
-      "description":"Agar ap chahte hai ke apka bot apke contacts ke msgs seen kare to |yes| Likho agar nahi chahte to |no| Likho", 
+      "description":"If you want your bot to mark messages as read, enter |yes|, otherwise enter |no|", 
       "value":"no", 
       "required":true 
     }, 
     "AUTO_READ_STATUS":
     {
-      "description":"Agar ap chahte hai apka bot apke contacts ke statues Auto Seen kare to Likho |yes| Agar chahte ho ke Auto Seen Naa kre to |no| Likho",
+      "description":"If you want your bot to auto-see status updates, enter |yes|, otherwise enter |no|",
       "value":"yes",
       "required":true
     }, "AUTO_DOWNLOAD_STATUS":
     {
-      "description":"Agar ap chahte hai apka bot apke friends ke status Save ker ke apke inbox me send kre to Likho |yes| Agar Chahte ho Ke Send Naa kare to Likho |no|",
+      "description":"If you want your bot to save and send status updates to your inbox, enter |yes|, otherwise enter |no|",
       "value":"no",
       "required":true
     }
     ,
      "PM_PERMIT" :
      {
-      "description":"Agar ap chahte ho ke apke inbox me har koi apka bot use kare to Likho |no| Agar Nahi chahte to Likho |no|",
+      "description":"If you want anyone to be able to use your bot in private messages, enter |no|, otherwise enter |no|",
       "value":"no",
       "required":true
     }
     ,
     "BOT_NAME" : {
 
-      "description":"Ap apne bot ka name Likho",
+      "description":"Enter your bot's name",
       "value":"Manjiro-Sano-md",
       "required":true
 
@@ -54,23 +54,23 @@
      },
     "PUBLIC_MODE":
     {
-      "description":"Agar ap chahte hai apka bot har koi use kare to likho |yes| agar ap khud use karna chahte hai to Likho |no| Is se koi bhi apka bot use nahi kar pae ga",
+      "description":"If you want anyone to be able to use your bot, enter |yes|, otherwise enter |no|",
       "value":"yes",
       "required":true
     }
         ,
     "HEROKU_API_KEY": {
-    "description": "Apke heroku ke accounts ki API KEY Likho",
+    "description": "Enter your Heroku API key",
      "required":true
     },
    "HEROKU_APP_NAME": {
-    "description": "Jo ap ne oper 1st me name likha hai wo copy ker ke yaha paste karo",
+    "description": "Enter the name of your Heroku app",
      "required" :true
     }  
           ,
     "SESSION_ID":
     {
-      "description":"Bot ki session id jo apko whatsapp per mili wo yaha likhe",   
+      "description":"Enter your bot's session ID",   
       "value":"",
       "required": true
 
@@ -78,37 +78,37 @@
     "OWNER_NAME":
     {
 
-    "desc": "Ap apna name likho",
+    "desc": "Enter your name",
     "required": true,
     "value": "Cod3Uchiha"
   },
     "OWNER_NUMBER":
   {
 
-    "desc": "Ap apna number likho |+| nahi lagana ese likho 923xxxxx",
+    "desc": "Enter your phone number (without the + sign, e.g. 263xxxxxx)",
     "required":true,
     "value": "263785028126"
   },
     "WARN_COUNT":
   {
-    "desc": "Ap kisi ko kitny warnins dena chahte hai phir jese hy yeh warnings poori hogi wo banda block ho jae ga ya group me hai to remove ho jae ga",
+    "desc": "Enter the number of warnings before a user is blocked or removed from a group",
     "required": true,
     "value": "2"
   },
     "CHAT_BOT":
     {
-      "desc": "Ap apne msg ko mention ker ke kuch bhi likho ge to reply ae ga uske lie |yes| Likho agar chahte hai ke reply Naa ae to |no| Likho",
+      "desc": "If you want your bot to respond to messages, enter |yes|, otherwise enter |no|",
       "required": true, 
        "value": "no" 
     }, 
   "STARTING_BOT_MESSAGE":
   {
-    "description": "Apke inbox me bot ka connected msg ata hai agar ap chahte ho yeh msg ae to |yes| Likho agar chahte ho ke msg Naa ae to |no| Likho",
+    "description": "If you want a starting message to be sent when the bot is connected, enter |yes|, otherwise enter |no|",
     "required": true,
     "value": "no"
   },
   "PRESENCE":{
-    "description":"Yaha per |online| Likho always Online Show hone ke lie or |typing| likho ge to koi msg kre ga apko oper show hoga is typing...  or chahte ho ke is recordin...  show ho to uske lie |recording| Likho or agar chahte hai esa kuch bhi na ho to box khali chor do",
+    "description":"Enter |online| to always show the bot as online, |typing| to show 'is typing...', |recording| to show 'is recording...', or leave blank for no presence",
     "value":"",
     "required": false
   }  
