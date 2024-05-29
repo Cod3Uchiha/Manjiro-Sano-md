@@ -9,8 +9,7 @@
 ***
 
 # *_GET • [SESSION ID](https://bot-by-umar-d2b1b3360401.herokuapp.com) • FOR Manjiro Sano md_*
-
-# *_for now use the Gold bot scanner
+for now use the Gold bot scanner
 
 ***
 
