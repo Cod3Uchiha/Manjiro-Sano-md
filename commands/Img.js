@@ -19,7 +19,7 @@ var gis = require('g-i-s');
 france({
   nomCom: "img",
   categorie: "Search",
-  reaction: "🔰"
+  reaction: "⚔️"
 },
 async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
