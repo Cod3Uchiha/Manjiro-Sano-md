@@ -27,7 +27,7 @@ const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 france({
   nomCom: "ranime",
   categorie: "Fun",
-  reaction: "🔰"
+  reaction: "⚙️"
 },
 async (origineMessage, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
