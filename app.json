@@ -2,7 +2,7 @@
   "name":"Manjiro-Sano-md",
   "description":"Lazmiii•) Ap yeh Box soch samajh kar fill karna Q k ap phir inko WhatsApp per change nahi kar pae ge Ok",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-GOLDLD-PIC.png",
+  "logo":"https://telegra.ph/file/2645fb9536dad7eda6aee.jpg",
   "repository":"https://github.com/Cod3Uchiha/Manjiro-Sano-md",
   "succes_url":"/",
   "stack":"container",
@@ -48,7 +48,7 @@
      "BOT_MENU_LINKS" : {
 
       "description":"Bot ke menu ki pic ka Link Likho",
-      "value":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-GOLDLD-PIC.png",
+      "value":"https://telegra.ph/file/2645fb9536dad7eda6aee.jpg",
       "required":false
 
      },
