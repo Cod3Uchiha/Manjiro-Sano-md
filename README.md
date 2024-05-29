@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Cod3Uchiha">
-    <img alt="Manjiro-Sano-md" height="400" src="https://telegra.ph/file/eb052759889416666c485.jpg">
+    <img alt="Manjiro-Sano-md" height="400" src="https://telegra.ph/file/2645fb9536dad7eda6aee.jpg">
   </a>
 </p>
 
