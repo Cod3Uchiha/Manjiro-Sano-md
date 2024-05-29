@@ -1,9 +1,9 @@
 {
-  "name":"GOLD-MD BY UMAR",
+  "name":"Manjiro-Sano-md",
   "description":"Lazmiii•) Ap yeh Box soch samajh kar fill karna Q k ap phir inko WhatsApp per change nahi kar pae ge Ok",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-GOLDLD-PIC.png",
-  "repository":"https://github.com/D4X-UMAR/GOLD-MD",
+  "repository":"https://github.com/Cod3Uchiha/Manjiro-Sano-md",
   "succes_url":"/",
   "stack":"container",
      "env":{
@@ -41,7 +41,7 @@
     "BOT_NAME" : {
 
       "description":"Ap apne bot ka name Likho",
-      "value":"GOLD-MD",
+      "value":"Manjiro-Sano-md",
       "required":true
 
     } ,
@@ -80,14 +80,14 @@
 
     "desc": "Ap apna name likho",
     "required": true,
-    "value": "UMAR"
+    "value": "Cod3Uchiha"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Ap apna number likho |+| nahi lagana ese likho 923xxxxx",
     "required":true,
-    "value": "233201817959"
+    "value": "263785028126"
   },
     "WARN_COUNT":
   {
