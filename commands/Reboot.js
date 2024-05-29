@@ -27,7 +27,7 @@ const {france}=require("../framework/france")
 
 
 
-france({nomCom:"reboot",categorie:"Mods",reaction:"🔰"},async(dest,z,com)=>{
+france({nomCom:"reboot",categorie:"Mods",reaction:"⚙️"},async(dest,z,com)=>{
 
 
   
@@ -40,7 +40,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("*GOLD-MD IS RE-BOTING...*");
+    repondre("*Manjiro Sano md IS RE-BOTING...*");
 
   exec("pm2 restart all");
   
