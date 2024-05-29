@@ -36,7 +36,7 @@ async function uploadToTelegraph(Path) {
 
 
 
-france({nomCom:"sticker",categorie: "Conversion", reaction: "🔰"},async(origineMessage,zk,commandeOptions)=>{
+france({nomCom:"sticker",categorie: "Conversion", reaction: "⚙️"},async(origineMessage,zk,commandeOptions)=>{
 
 let {ms,mtype,arg,repondre,nomAuteurMessage}=commandeOptions
   var txt=JSON.stringify(ms.message)
@@ -127,7 +127,7 @@ try{
   
 });
 
-france({nomCom:"scrop",categorie: "Conversion", reaction: "🔰"},async(origineMessage,zk,commandeOptions)=>{
+france({nomCom:"scrop",categorie: "Conversion", reaction: "⚙️"},async(origineMessage,zk,commandeOptions)=>{
    const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
 
   if(!msgRepondu) { repondre( 'Check karo yeh photo ya video hai?' ) ; return } ;
@@ -150,7 +150,7 @@ mediamsg = msgRepondu.videoMessage
   var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
 
      let stickerMess = new Sticker(stick, {
-            pack: 'GOLD-MD',
+            pack: 'Cod3Uchiha--Manjiro-Sano-md',
             
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
@@ -186,7 +186,7 @@ mediamsg = msgRepondu.videoMessage
   var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
 
      let stickerMess = new Sticker(stick, {
-            pack: nomAuteurMessage,
+            pack: Cod3Uchiha--Manjiro-Sano-md,
             
             type: StickerTypes.FULL,
             categories: ["🤩", "🎉"],
@@ -251,8 +251,8 @@ france({ nomCom: "write", categorie: "Conversion", reaction: "🔰" }, async (or
 
     // Create the sticker
     const stickerMess = new Sticker(meme, {
-      pack: nomAuteurMessage,
-      author: 'GOLD-MD',
+      pack: Cod3Uchiha--Manjiro-Sano-md,
+      author: 'Manjiro-Sano-md',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
