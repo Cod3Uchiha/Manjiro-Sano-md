@@ -1,155 +1,103 @@
-
-/** 
-
- GOLD MD
-
-  𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 (𝗖) 2024.
- 𝗟𝗶𝗰𝗲𝗻𝘀𝗲𝗱 𝘂𝗻𝗱𝗲𝗿 𝘁𝗵𝗲  𝗠𝗜𝗧 𝗟𝗶𝗰𝗲𝗻𝘀𝗲;
- 𝗬𝗼𝘂 𝗺𝗮𝘆 𝗻𝗼𝘁 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲 𝗲𝘅𝗰𝗲𝗽𝘁 𝗶𝗻 𝗰𝗼𝗺𝗽𝗹𝗶𝗮𝗻𝗰𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗟𝗶𝗰𝗲𝗻𝘀𝗲.
- 𝗜𝘁 𝗶𝘀 𝘀𝘂𝗽𝗽𝗹𝗶𝗲𝗱 𝗶𝗻 𝘁𝗵𝗲 𝗵𝗼𝗽𝗲 𝘁𝗵𝗮𝘁 𝗶𝘁 𝗺𝗮𝘆 𝗯𝗲 𝘂𝘀𝗲𝗳𝘂𝗹.
- * @𝗽𝗿𝗼𝗷𝗲𝗰𝘁_𝗻𝗮𝗺𝗲 : GOLD 𝗠𝗗, 𝗮 𝘀𝗶𝗺𝗽𝗹𝗲 𝗮𝗻𝗱 𝗲𝗮𝘀𝘆 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘂𝘀𝗲𝗿 𝗯𝗼𝘁 
- * @𝗼𝘄𝗻𝗲𝗿: UMAR 
- 
- **/
-
-
-
-
-
-
-
-
 const { france } = require("../framework/france");
 const { getytlink, ytdwn } = require("../framework/ytdl-core");
 const yts = require("yt-search");
 const ytdl = require('ytdl-core');
 const fs = require('fs');
 
-france({ nomCom: "yts", categorie: "Search", reaction: "🔰" }, async (dest, zk, commandeOptions) => {
-  const { ms, repondre, arg } = commandeOptions;
-  const query = arg.join(" ");
+france({ commandName: "yts", category: "Search", reaction: "🔰" }, async (destination, client, commandOptions) => {
+  const { message, reply, args } = commandOptions;
+  const query = args.join(" ");
 
   if (!query[0]) {
-    repondre("Apko youtube ki kon si videos ke name or link ki list chahye..?");
+    reply("Which videos from YouTube do you want to search for?");
     return;
   }
 
   try {
     const info = await yts(query);
-    const resultat = info.videos;
+    const result = info.videos;
 
     let captions = "";
     for (let i = 0; i < 10; i++) {
-      captions += `----------------\nTitle: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
+      captions += `----------------\nTitle: ${result[i].title}\nTime : ${result[i].timestamp}\nUrl: ${result[i].url}\n`;
     }
-    captions += "\n======\n*MADE BY GOLD-MD*";
+    captions += "\n======\n_MADE BY Manjiro-Sano-md_";
 
-    // repondre(captions)
-    zk.sendMessage(dest, { image: { url: resultat[0].thumbnail }, caption: captions }, { quoted: ms });
+    client.sendMessage(destination, { image: { url: result[0].thumbnail }, caption: captions }, { quoted: message });
   } catch (error) {
-    repondre("Erreur lors de la procédure : " + error);
+    reply("Error during the process: " + error);
   }
 });
 
 france({
-  nomCom: "ytmp4",
-  categorie: "Download",
+  commandName: "ytmp4",
+  category: "Download",
   reaction: "🔰"
-}, async (origineMessage, zk, commandeOptions) => {
-  const { arg, ms, repondre } = commandeOptions;
+}, async (originalMessage, client, commandOptions) => {
+  const { args, message, reply } = commandOptions;
 
-  if (!arg[0]) {
-    repondre("Mujhe youtube ki video ka link do");
+  if (!args[0]) {
+    reply("Give me the link of the YouTube video");
     return;
   }
 
-  const topo = arg.join(" ");
+  const query = args.join(" ");
   try {
-    /* const search = await yts(topo);
-    const videos = search.videos;
-
-    if (videos && videos.length > 0 && videos[0]) {
-      const Element = videos[0];
-
-      let InfoMess = {
-        image: { url: videos[0].thumbnail },
-        caption: `*nom de la vidéo :* _${Element.title}_
-*Durée :* _${Element.timestamp}_
-*Lien :* _${Element.url}_
-_*En cours de téléchargement...*_\n\n`
-      };
-
-      zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
-    */
-
-    // Obtenir les informations de la vidéo à partir du lien YouTube
-    const videoInfo = await ytdl.getInfo(topo);
-    // Format vidéo avec la meilleure qualité disponible
+    const videoInfo = await ytdl.getInfo(query);
     const format = ytdl.chooseFormat(videoInfo.formats, { quality: '18' });
-    // Télécharger la vidéo
     const videoStream = ytdl.downloadFromInfo(videoInfo, { format });
 
-    // Nom du fichier local pour sauvegarder la vidéo
     const filename = 'video.mp4';
-
-    // Écrire le flux vidéo dans un fichier local
     const fileStream = fs.createWriteStream(filename);
     videoStream.pipe(fileStream);
 
     fileStream.on('finish', () => {
-      // Envoi du fichier vidéo en utilisant l'URL du fichier local
-      zk.sendMessage(origineMessage, { video: { url: `./${filename}` }, caption: "*MADE BY GOLD-MD*", gifPlayback: false }, { quoted: ms });
-
+      client.sendMessage(originalMessage, { video: { url: `./${filename}` }, caption: "_MADE BY GOLD-MD_", gifPlayback: false }, { quoted: message });
     });
 
     fileStream.on('error', (error) => {
-      console.error('Erreur lors de l\'écriture du fichier vidéo :', error);
-      repondre('Une erreur est survenue lors de l\'écriture du fichier vidéo.');
+      console.error('Error writing video file:', error);
+      reply('An error occurred while writing the video file.');
     });
 
   } catch (error) {
-    console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.' + error);
+    console.error('Error during video search or download:', error);
+    reply('An error occurred during the video search or download.' + error);
   }
 });
 
 france({
-  nomCom: "ytmp3",
-  categorie: "Download",
+  commandName: "ytmp3",
+  category: "Download",
   reaction: "🔰"
-}, async (origineMessage, zk, commandeOptions) => {
-  const { ms, repondre, arg } = commandeOptions;
+}, async (originalMessage, client, commandOptions) => {
+  const { message, reply, args } = commandOptions;
 
-  if (!arg[0]) {
-    repondre("Mujhe youtube ki video ka link do");
+  if (!args[0]) {
+    reply("Give me the link of the YouTube video");
     return;
   }
 
   try {
-    let topo = arg.join(" ");
+    let query = args.join(" ");
 
-    const audioStream = ytdl(topo, { filter: 'audioonly', quality: 'highestaudio' });
-
-    // Nom du fichier local pour sauvegarder le fichier audio
+    const audioStream = ytdl(query, { filter: 'audioonly', quality: 'highestaudio' });
     const filename = 'audio.mp3';
-
-    // Écrire le flux audio dans un fichier local
     const fileStream = fs.createWriteStream(filename);
     audioStream.pipe(fileStream);
 
     fileStream.on('finish', () => {
-      // Envoi du fichier audio en utilisant l'URL du fichier local
-      zk.sendMessage(origineMessage, { audio: { url: `./${filename}` }, mimetype: 'audio/mp4' }, { quoted: ms, ptt: false });
-      console.log("Envoi du fichier audio terminé !");
+      client.sendMessage(originalMessage, { audio: { url: `./${filename}` }, mimetype: 'audio/mp4' }, { quoted: message, ptt: false });
+      console.log("Audio file sent!");
     });
 
     fileStream.on('error', (error) => {
-      console.error('Erreur lors de l\'écriture du fichier audio :', error);
-      repondre('Une erreur est survenue lors de l\'écriture du fichier audio.');
+      console.error('Error writing audio file:', error);
+      reply('An error occurred while writing the audio file.');
     });
 
   } catch (error) {
-    console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.');
+    console.error('Error during video search or download:', error);
+    reply('An error occurred during the video search or download.');
   }
 });
