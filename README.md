@@ -10,6 +10,8 @@
 
 # *_GET • [SESSION ID](https://bot-by-umar-d2b1b3360401.herokuapp.com) • FOR Manjiro Sano md_*
 
+# *_for now use the Gold bot scanner
+
 ***
 
 # *_NOW • [DEPLOY](https://dashboard.heroku.com/new?button-url=https://github.com/Cod3Uchiha/Manjiro-Sano-md&template=https://github.com/Cod3Uchiha/Manjiro-Sano-md) • Manjiro Sano md ON HEROKU_*
