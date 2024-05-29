@@ -20,7 +20,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { france } = require("../framework/france");
 france({ nomCom: "tempmail", reaction: "🔰", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = '*MADE BY GOLD MD* \n\n ' + "Niche kisi bhi Link per click karo aur temp mails website khul jaye gy waha se unlimited temp mails mile ge apko Enjoy";
+    let z = '*MADE By Manjiro-Sano-md* \n\n ' + "Niche kisi bhi Link per click karo aur temp mails website khul jaye gy waha se unlimited temp mails mile ge apko Enjoy";
     let d = '🔰 https://tempumail.com\n\n 🔰 https://etempmail.com\n\n 🔰 https://ghostmail.one\n\n 🔰 https://tempmailid.com';
     let varmess = z + d;
     var img = 'https://is.gd/s0OOVO';
