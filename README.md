@@ -7,6 +7,13 @@
 </p>
 
 ***
+<p align="center">
+<a href="https://github.com/Cod3Uchiha?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Cod3Uchiha?label=Followers&style=social"></a>
+<a href="https://github.com/Cod3Uchiha/Manjiro-Sano-md/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/Cod3Uchiha/Manjiro-Sano-md?&style=social"></a>
+<a href="https://github.com/Cod3Uchiha/Manjiro-Sano-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Cod3Uchiha/Manjiro-Sano-md?style=social"></a>
+<a href="https://github.com/Cod3Uchiha/Manjiro-Sano-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Cod3Uchiha/Manjiro-Sano-md?label=Watching&style=social"></a>
+  
+***
 
 # *_GET • [SESSION ID](https://bot-by-umar-d2b1b3360401.herokuapp.com) • FOR Manjiro Sano md_*
 for now use the Gold bot scanner
