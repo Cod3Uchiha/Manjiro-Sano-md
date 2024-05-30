@@ -50,7 +50,7 @@ france(
       
     
      
-    moment.tz.setDefault('Asia/Karachi');
+    moment.tz.setDefault('Africa/Harare');
 
 // Créer une date et une heure en EAT
 const temps = moment().format('HH:mm:ss');
@@ -93,7 +93,7 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("Bot me koi alive msg set nahi") ; return};
+        if(!superUser) { repondre("Hello, I'm Manjiro-Sano-md, created by Cod3Uchiha") ; return};
 
       await   repondre("Agar apko bot me alive msg set karna hai to ese likho: .alive message;photo link");
          repondre("*⚔️ HI I'm Manjiro sano 📀*")
