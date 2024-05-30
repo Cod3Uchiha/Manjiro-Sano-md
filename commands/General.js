@@ -77,7 +77,7 @@ france({ nomCom: "owner", categorie: "General", reaction: "🔰" }, async (dest,
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "🤖 Manjiro-Sano-md DEVOLPER NUMBERS 🤖:\n\n";
+    let message = "🤖 Manjiro-Sano-md Developer NUMBERS 🤖:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
