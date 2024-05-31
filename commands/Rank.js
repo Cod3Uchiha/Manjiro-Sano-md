@@ -154,7 +154,7 @@ france( {
     
     
          let msg = `
-┏━━━┛ FLASH-MD Ranking┗━━━┓
+┏▫━━━< ▫Manjiro-Sano-md▫ >━━━▫┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -166,7 +166,7 @@ france( {
 
     *Messages :* ${rank.messages}
     
-   ┕━✿━┑  ┍━✿━┙`
+   ┕━▫━▫┑  ┍▫━▫━┙`
     
      zk.sendMessage( 
         dest,
@@ -230,7 +230,7 @@ france( {
     
     
          let msg = `
-┏━━━┛ FLASH-MD Ranking ┗━━━┓
+┏▫━━━< ▫Manjiro-Sano-md▫ >━━━▫┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -242,7 +242,7 @@ france( {
 
   *Messages :* ${rang.messages}
 
-   ┕━✿━┑  ┍━✿━┙`
+   ┕━▫━▫┑  ┍▫━▫━┙`
     
      zk.sendMessage( 
         dest,
@@ -271,7 +271,7 @@ france( {
     const {ms , arg, repondre,auteurMessage,nomAuteurMessage, msgRepondu , auteurMsgRepondu , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ FLASH-MD-top-rang ┗━━┓\n\n`
+       let msg = `┏▫━━━< ▫Manjiro-Sano-md-top-rank▫ >━━━▫┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;
