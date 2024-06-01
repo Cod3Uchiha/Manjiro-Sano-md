@@ -15,7 +15,7 @@
   
 ***
 
-# *_GET • [SESSION ID](https://gold-md1-by-umar-1d546c44c9c3.herokuapp.com) • FOR Manjiro Sano md_*
+# *_GET • [SESSION ID](https://manjiro-sano-app.onrender.com) • FOR Manjiro Sano md_*
 
 ***
 
