@@ -29,14 +29,14 @@ france({
           
        let infoMess = {
           image: {url : videos[0]. thumbnail},
-         caption : `*FLASH-MD SONG DOWNLOADER*\n\n*Title:* ${videos[0].title}
+         caption : `*𝕸𝖆𝖓𝖏𝖎𝖗𝖔-𝕾𝖆𝖓𝖔-𝖒𝖉 SONG DOWNLOADER*\n\n*Title:* ${videos[0].title}
          
 *Duration:* ${videos[0].timestamp}
 *Song Url:* ${videos[0].url}
 
 
 
-*_Powered by ©France King._*`
+*_Powered by Cod3Uchiha._*`
        }
 
       
@@ -103,13 +103,13 @@ france({
 
       let InfoMess = {
         image: { url: videos[0].thumbnail },
-        caption: `*FLASH-MD VIDEO DOWNLOADER*\n\n*Title :* ${Element.title}
+        caption: `*𝕸𝖆𝖓𝖏𝖎𝖗𝖔-𝕾𝖆𝖓𝖔-𝖒𝖉 VIDEO DOWNLOADER*\n\n*Title :* ${Element.title}
 *Duration :* ${Element.timestamp}
 *Video Url:* ${Element.url}
 
 
 
-*Powered by ©France King*\n\n`
+*Powered by Cod3Uchiha*\n\n`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
