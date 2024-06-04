@@ -33,6 +33,6 @@
 
 # *_Acknowledgements_*
 
-# I would like to extend my sincere thanks to D4X-UMAR • https://github.com/D4X-UMAR for providing the base of the bot. His contributions have been instrumental in the development of this project.
+# Credits to Franceking • https://github.com/Franceking1
 
 # Thank you, D4X-UMAR • https://github.com/D4X-UMAR for your valuable input and support!
