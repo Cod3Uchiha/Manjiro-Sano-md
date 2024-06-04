@@ -161,7 +161,7 @@ france({
       // Si la requête a réussi, envoyez l'image résultante
       
       let stickerMess = new Sticker(response.data.result, {
-        pack: Manjiro Sano-md,
+        pack: Manjiro-md,
         type: StickerTypes.CROPPED,
         categories: ["🤩", "🎉"],
         id: "12345",
