@@ -149,7 +149,7 @@ france( {
     
     
          let msg = `
-┏━━━┛ 𝕸𝖆𝖓𝖏𝖎𝖗𝖔-𝕾𝖆𝖓𝖔-𝖒𝖉 ┗━━━┓
+┏━━━〘Manjiro-Sano-md〙━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -225,7 +225,7 @@ france( {
     
     
          let msg = `
-┏━━━┛ 𝕸𝖆𝖓𝖏𝖎𝖗𝖔-𝕾𝖆𝖓𝖔-𝖒𝖉 ┗━━━┓
+┏━━━〘Manjiro-Sano-md〙━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -266,7 +266,7 @@ france( {
     const {ms , arg, repondre,auteurMessage,nomAuteurMessage, msgRepondu , auteurMsgRepondu , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ 𝕸𝖆𝖓𝖏𝖎𝖗𝖔-top-rang ┗━━┓\n\n`
+       let msg = `┏━━〘Manjiro-top-rang〙━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;
