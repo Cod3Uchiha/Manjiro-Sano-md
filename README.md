@@ -19,6 +19,12 @@
 
 ***
 
+# Remove MANJIRO-SANO-MD;;; and leave eyjubl....... Before deploying,Then copy the modified session id and then use it to deploy on heroku
+
+# thank you for using Manjiro-Sano-md
+
+***
+
 # *_NOW • [DEPLOY](https://dashboard.heroku.com/new?button-url=https://github.com/Cod3Uchiha/Manjiro-Sano-md&template=https://github.com/Cod3Uchiha/Manjiro-Sano-md) • Manjiro Sano md ON HEROKU_*
 
 ***
@@ -33,6 +39,6 @@
 
 # *_Acknowledgements_*
 
-# Credits to Franceking • https://github.com/Franceking1
+# Special thanks to Franceking • https://github.com/Franceking1
 
 # Thank you, D4X-UMAR • https://github.com/D4X-UMAR for your valuable input and support!
