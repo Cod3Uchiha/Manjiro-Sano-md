@@ -39,6 +39,8 @@
 
 # *_Acknowledgements_*
 
-# Special thanks to Franceking • https://github.com/Franceking1
+# Special thanks to Franceking • https://github.com/Franceking1,thank you so much for your support
 
-# Thank you, D4X-UMAR • https://github.com/D4X-UMAR for your valuable input and support!
+# Venocyber_Tech • https://github.com/kingjux|Thanks for your help and support Bro
+
+# Thank you, D4X-UMAR • https://github.com/D4X-UMAR
