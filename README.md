@@ -15,11 +15,10 @@
   
 ***
 
-# *_GET • [SESSION ID](https://manjiro-sano-app.onrender.com) • FOR Manjiro Sano md_*
+# *_GET • [SESSION ID](https://cod3session-00187e8a3f27.herokuapp.com/) • FOR Manjiro Sano md_*
 
 ***
 
-# Remove MANJIRO-SANO-MD;;; and leave eyjubl....... Before deploying,Then copy the modified session id and then use it to deploy on heroku
 
 # thank you for using Manjiro-Sano-md
 
